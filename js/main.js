@@ -18,7 +18,7 @@ $(function () {
     $('#fileupload').fileupload({
         // Uncomment the following to send cross-domain cookies:
         //xhrFields: {withCredentials: true},
-        url: 'server/php/'
+        url: 'http://argosapps.fr/file-upload/fileuploadp/server/php/'
     });
 
     // Enable iframe cross-domain access via redirect option:
